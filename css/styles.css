@@ -1,0 +1,62 @@
+/* Start Body */
+body {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 20px;
+    padding: 80px;
+}
+/* End Body*/
+
+
+/* End Logo An1mage Center */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* End Logo An1mage Center */
+
+/* Start Menu Bar */
+.menu-bar ul{
+    background-color: purple;
+    border-radius: 4px;
+}
+
+.menu-bar li{
+    border-right: 1px solid #800080;
+    display: inline-block;
+}
+
+.menu-bar a{
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 4px;
+    padding: 10px 50px ;
+    text-transform: uppercase;
+}
+/* End Menu Bar */
+
+/* Start Slide Center */
+.slidecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+/* End  Slide Center */
+
+/* Start underscore hilang*/
+a{text-decoration:none;}
+/* End underscore hilang */
+
+/* Start Container */
+.container{
+    margin : 10px, auto;
+    overflow : auto;
+    width : 100%;
+}
+/* End Container */
