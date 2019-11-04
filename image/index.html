@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- Start Title-->
+        <title>Publikasi Buku Novel Komik Jurnal An1mage</title>
+        <!-- End Title-->
+
+        <!-- Start Description-->
+        <meta type="description" =content"Inspiring Creation, Mind Enlightening">
+        <!-- End Description-->
+
+        <!-- Start CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- End CSS-->
+    </head>
+    
+    <body>
+    <p>
+        <!-- Start Logo-->
+        <a href="index.html" title="Publikasi Buku Novel Komik Jurnal An1mage">
+            <img src="image/00logoan1mageweb.png" width=480 alt="An1mage Logo" class="center">
+        </a>
+        <!-- End Logo-->
+    </p>
+    
+    <p>
+        <!-- Start Menu Bar-->
+        <div class="container menu-bar">
+        <ul> 
+            <li>
+                <a href="index.html" title="Home" class="warnaputih"> Home</a>
+            </li>
+            <li>
+                <a href="aboutus.html" title="About Us" class="warnaputih" >About Us</a>
+            </li>
+            <li>
+                <a href="publishing.html" title="Publishing" class="warnaputih" >Publishing</a>
+            </li>
+            <li>
+                <a href="contact.html" title="Contact" class="warnaputih" >Contact</a>
+            </li>
+        </ul>
+        </div>
+        
+        <!-- End Menu Bar-->
+    </p>
+
+    <p>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image/slide1.jpg" width=1000 alt="slide1" class="slidecenter">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image/slide2.jpg" width=1000 alt="slide1" class="slidecenter">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image/slide3.jpg" width=1000 alt="slide1" class="slidecenter">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </p>
+
+    <p>
+        <!-- Start Jumbotron-->
+        <h1>Inspiring Creation, Mind Enlightening</h1>
+        <h3>Berpikir kreatif-kritis, berkarya dan jangkau lebih banyak pembaca bersama An1mage</h3>
+        <!-- End Jumbotron-->
+    </p>
+    
+    <p> 
+        <!-- Start Description-->
+        An1mage menerima karya dengan berbagai ragam cerita juga gaya gambar. An1mage membantu menguruskan hak cipta berupa ISBN untuk karya buku, di mana hak cipta tersebut tetap pada pembuat karya bukan pada penerbitnya. Baik buruknya suatu karya juga bukan ditentukan oleh penerbit, editor, atau sesama penulis dan artist. Penentunya adalah pembaca.</p>
+        <!-- End Description-->
+    </p> 
+    
+    <p>
+        <!-- Start what we do-->
+        <h3>An1mage Community and Publishing</h3>
+        <!-- End what we do-->
+    </p>
+
+    <p>
+        <!-- Start Link An1mage what we do-->
+        
+        <a href="publishing.html" title="Ikomik">
+            <img src="image/an1mageikomik.jpg" width=100 alt="Ikomik Logo"> </a>
+        
+        <a href="publishing.html" title="Inovel">
+            <img src="image/an1mageinovel.jpg" width=100 alt="Inovel Logo"> </a>
+
+        <a href="publishing.html" title="Iteks">
+            <img src="image/an1mageiteks.jpg" width=100 alt="Iteks Logo"> </a>
+    </p>
+    
+    <p>
+        <a href="publishing.html" title="An1magine">
+            <img src="image/an1magine.jpg" width=100 alt="An1magine Logo"> </a>
+
+        <a href="publishing.html" title="Jurnal">
+            <img src="image/an1magejurnal.jpg" width=100 alt="Jurnal Logo"> </a>
+        <!-- End Link An1mage Product-->
+    </p>
+
+    <p>
+        <!-- Start Social Media-->
+        <h3>Social Media</h3>
+        <!-- End Social Media-->
+    </p>
+
+    <p>
+        <!-- Start Link Social Media-->
+        <a href="https://www.instagram.com/an1mage/" title="Instagram">
+            <img src="image/sosmedig.jpg" width=50 alt="Instagram Logo"> </a>
+
+        <a href="https://www.linkedin.com/in/an1mage" title="Linkedin">
+            <img src="image/sosmedin.jpg" width=50 alt="Linkedin Logo"> </a>
+        <!-- End Link Social Media-->
+    </p>
+
+    <p>
+        <!-- Start Copyright-->
+        <p>Copyright &copy 2019 - leadwinner</p>
+        <!-- End Copyright-->
+    </p>  
+
+    </body>
+</html>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    }
+</script>
